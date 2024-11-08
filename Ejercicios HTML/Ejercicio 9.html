@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9</title>
+</head>
+<body>
+    <h2>Formulario Cita Medico</h2>
+    <form action="procesar.php" method="post" style="line-height: 190%;">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required><br>
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" name="dni" pattern="[0-9]{8}[A-Za-z]{1}" title="Introduce 8 dígitos y una letra" required><br>
+        <label for="postal">Codigo postal:</label>
+        <input type="text" id="postal" name="postal" pattern="[0-9]{5}" required><br>
+        <label for="dia">Dia para la cita:</label>
+        <input list="dias" name="dia" id="dia" required><br>
+        <datalist id="dias">
+            <option value="Lunes">
+            <option value="Martes">
+            <option value="Miercoles">
+            <option value="Jueves">
+            <option value="Viernes">
+        </datalist>
+        <label for="mes">Mes:</label>
+        <input type="month" name="mes" id="mes" required><br>
+        <label for="hora">Hora: </label>
+        <input id="hora" name="hora" type="time" required><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
