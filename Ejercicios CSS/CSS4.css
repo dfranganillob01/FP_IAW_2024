@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+
+div{
+    line-height: 150px;
+}
+
+h1{
+    color: red;
+}
+
+div.lineal-arriba{
+    background-image: linear-gradient(yellow, lightblue);
+}
+
+div.lineal-lado{
+    background-image: linear-gradient(to left, rgb(20,50,5), rgb(179, 151, 30));
+    color: aliceblue;
+}
+
+div.radial{
+    background-image: radial-gradient(rgb(200,100,150), rgb(230,200,50), rgb(230,100,50));
+}

@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+p{
+    color: greenyellow;
+    padding-top: 30px;
+}
+
+p.uno {
+    padding-left: 30px;
+    color: brown;
+}
+
+h2{
+    margin: 50px;
+    color: aqua;
+}
+
+h3{
+    color: red;
+    padding-top: 15px;
+    text-align: center;
+    text-shadow: 10px 3px 2px;
+}

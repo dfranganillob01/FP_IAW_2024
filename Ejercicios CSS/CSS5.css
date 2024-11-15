@@ -1,0 +1,23 @@
+h1{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(255, 251, 250, 0.733), rgba(226, 117, 128, 0.5) );
+}
+
+p.parte-1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p.parte-2{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+
+p.parte-3{
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: smaller;
+}

@@ -1,0 +1,28 @@
+body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200vh;
+    background-color: #f0f0f0;
+}
+
+#boton-color {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px 30px;
+    height: 200px;
+    width: 400px;
+    font-size: 30px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    border-style: double;
+    border-color: black;
+    transition: 2s;
+}
+
+#boton-color:hover {
+    color: #f0f0f0;
+}

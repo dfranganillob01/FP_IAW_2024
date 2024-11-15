@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+h2{
+    margin-top: 0%;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: aliceblue;
+}
+
+h3{
+    height: 200px;
+    text-align: center;
+}
+
+div.fondo-cabecera{
+    background-image: url(https://us.images.westend61.de/0001377250pw/dibujo-de-limones-frescos-partidos-por-la-mitad-sobre-fondo-amarillo-GEMF03711.jpg);
+    background-size: 80px, cover;
+}
+
+div.fondo-1{
+    background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/11/15-Presentation-Background-Examples28.jpeg);
+    background-size: 160px, cover;
+}
+
+div.fondo-pie{
+    background-image: url(https://img.freepik.com/vector-premium/mano-dibujos-animados-3d-dedo-apuntando-arriba-aislado-sobre-fondo-blanco-ilustracion-vectorial_221648-151.jpg);
+    background-size: 200px;
+}

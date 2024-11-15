@@ -1,0 +1,37 @@
+body{
+    align-items: center;
+    text-align: center;
+    line-height: 60px;
+    background-image: linear-gradient(to left, rgba(214, 188, 191, 0.5), rgba(189, 21, 52, 0.5));
+}
+
+h1{
+    color: red;
+}
+
+div{
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+#rotacion:hover{
+    transform: rotate(75deg);
+}
+
+#escalado:hover{
+    transform: scale(160%);
+}
+
+#sesgado:hover{
+    transform: skew(-40deg, 0);
+}
+
+#traslacion:hover{
+    transform: translate(140px, 0px);
+}
+
+img{
+    height: 150px;
+}

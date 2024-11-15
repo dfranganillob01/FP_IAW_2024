@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    line-height: 80px;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
+
+h2.rgba{
+    background-color: rgb(193, 159, 228);
+    color: rgba(16, 77, 138, 0.5);
+}
+
+h2.hsl{
+    background-color: hsl(140, 30%, 70%);
+    color: hsl(30, 75%, 30%);
+}
+
+h2.hsla{
+    background-color: hsla(190, 54%, 66%, 0.5);
+    color: hsla(12, 84%, 49%, 0.5);
+}
