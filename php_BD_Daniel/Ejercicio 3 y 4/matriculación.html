@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriculacion de alumnos en las asignaturas</title>
+</head>
+<body>
+    <h1>Matricular a los alumnos en las diferentes asignaturas</h1>
+    <form action="matricular.php" method="post">
+        DNI: <input type="text" name="dni" required><br>
+        ASOR: <input type="checkbox" name="asignaturas[]" value="1"><br>
+        ASGBD: <input type="checkbox" name="asignaturas[]" value="2"><br>
+        IAW: <input type="checkbox" name="asignaturas[]" value="3"><br>
+        SHREIN: <input type="checkbox" name="asignaturas[]" value="4"><br>
+        SAD: <input type="checkbox" name="asignaturas[]" value="5"><br>
+        <input type="submit" value="Matricular">
+    </form>
+    <a href="inicio2.html">Volver a inicio</br></a>
+</body>
+</html>
